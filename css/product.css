@@ -1,0 +1,192 @@
+.product {
+  width: 100%;
+  background: #fff;
+}
+
+.product-head {
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.product-head__text {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #C72535;
+  opacity: 0.6;
+}
+
+.product-head__title {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 71px;
+  color: #030D15;
+  padding-bottom: 20px;
+}
+
+.product-head__item {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.product-head__item:hover {
+  color: #C72535;
+}
+
+.product-block__all {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.product-block {
+  width: 30%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 35px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.product-block__text {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  color: #030D15;
+}
+
+.product-block__img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.product-block__img:active,
+.product-block__img__two:active {
+  transform: translateY(10px);
+  cursor: progress;
+}
+
+.product-block__img__two {
+  display: flex;
+  margin: auto;
+  padding: 45px 0;
+}
+
+.produck-block__title {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  color: #030D15;
+}
+
+.produck-block__money {
+  display: flex;
+}
+
+.product-block__num {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #030D15;
+}
+
+.product-block__span {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #030D15;
+  opacity: 0.5;
+
+}
+
+.product-block__star {
+  color: #C72535;
+  padding: 10px 2px;
+}
+
+.product-block__star__none {
+  color: gray;
+}
+
+.product-block__view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 20px;
+}
+
+.product-block__view__text {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #030D15;
+}
+
+.product-block__view__icon {
+  color: black;
+  padding-left: 20px;
+}
+
+.product-block:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px black;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1199px) {
+  .product-block {
+    width: 35%;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .product-block {
+    width: 65%;
+  }
+  .product-head{
+    margin-top: 90px;
+  }
+
+}
+
+@media (max-width: 575px){
+  .product-block {
+    width: 100%;
+  }
+  .product-head__item{
+    font-size: 16px;
+    padding: 6px 20px;
+  }
+}

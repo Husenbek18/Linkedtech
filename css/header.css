@@ -1,0 +1,283 @@
+.header {
+  width: 100%;
+  background: white;
+}
+
+.header-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 33px 0;
+}
+
+.header-nav__links {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav__link {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #030D15;
+  transition: 300ms;
+}
+
+.header-nav__icon {
+  opacity: 0.7;
+  padding-left: 10px;
+}
+
+.header-nav__search {
+  padding: 0 20px;
+  color: #030D15;
+  transition: 300ms;
+}
+
+.header-nav__link:hover {
+  color: blue;
+}
+
+.header-nav__search:hover {
+  color: rgb(226, 79, 79);
+}
+
+/* HEEADER-WRAPPER */
+
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 54px;
+}
+
+.header-left {
+  width: 48%;
+  padding-top: 60px;
+}
+
+.header-left__text {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #C72535;
+  opacity: 0.6;
+}
+
+.header-left__title {
+  width: 90%;
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 73px;
+  background-color: rgb(246, 247, 250);
+  color: #247CC0;
+
+}
+
+.header-left__text-one {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 61px;
+  line-height: 73px;
+  color: #030D15;
+}
+
+.header-left__text-two {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #030D15;
+  opacity: 0.6;
+  padding: 20px 0 36px;
+}
+
+.header-left__block {
+  display: flex;
+  align-items: center;
+}
+
+.header-left__btn {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: #247CC0;
+  padding: 16px 34px;
+}
+
+.header-left__btn:hover {
+  background: #012c4d;
+  color: #FFF;
+}
+
+.header-left__num {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #030D15;
+  padding: 0 18px 0 31px;
+
+}
+
+.header-left__span {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: #030D15;
+  opacity: 0.5;
+}
+
+.header-left__right {
+  width: 50%;
+}
+
+.header-left__img {
+  width: 100%;
+}
+
+
+
+/* header-bottom */
+
+.header-bottom {
+  width: 100%;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 40px #E5E5E5;
+  padding: 80px 0;
+
+}
+
+.header-bottom__one {
+  width: 20%;
+}
+
+
+.header-bottom__img:hover {
+  transform: scale(1.06);
+}
+
+.header-nav__burger {
+  color: #303030;
+  font-size: 35px;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media (max-width: 1199px) {
+  .header-bottom {
+    flex-wrap: wrap;
+    padding: 60px 0;
+  }
+
+  .header-bottom__one {
+    width: 30%;
+  }
+
+  .header-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .header-left {
+    width: 100%;
+    padding-top: 35px;
+  }
+
+  .header-left__title {
+    width: 100%;
+  }
+
+  .header-left__block {
+    display: block;
+  }
+
+  .header-left__num {
+    display: unset;
+  }
+
+  .header-left__right {
+    width: 100%;
+  }
+
+  .header-left__img {
+    padding-top: 60px;
+    width: 85%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .header-wrapper {
+    padding-top: 10px;
+  }
+
+  .header-nav__links {
+    display: none;
+  }
+
+  .header-nav__search {
+    display: none;
+  }
+
+  .header-nav__burger {
+    display: block;
+  }
+
+  .header-left__num {
+    display: none;
+  }
+
+  .header-left__span {
+    display: none;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .header-bottom__one {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+
+  @media (max-width: 320px) {
+    .header-left__title {
+      font-size: 52px;
+    }
+
+    .header-left__text-one {
+      font-size: 51px;
+    }
+
+    .header-top {
+      padding: 19px 0;
+    }
+
+    .header-left {
+      padding-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.contact {
+  width: 100%;
+  background: #E6EDF2;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.card-left {
+  width: 35%;
+}
+
+.card-left__text {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+  text-transform: uppercase;
+  color: #C72535;
+  opacity: 0.6;
+}
+
+.card-left__title {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  color: #030D15;
+}
+
+.card-left__text__two {
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #030D15;
+}
+
+.card-right {
+  width: 45%;
+  margin: auto 0;
+
+}
+
+.card-right__form {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-right__label {
+  width: 100%;
+  height: 50px;
+  display: flex;
+
+}
+
+.card-right__inp {
+  width: 70%;
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #030D15;
+  opacity: 0.4;
+  padding-left: 20px;
+}
+
+
+.card-right__btn {
+  width: 30%;
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #247CC0;
+  cursor: pointer;
+}
+
+.card-right__btn:hover{
+  background: rgb(201, 3, 3);
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .card{
+    display: block;
+    text-align: center;
+    padding: 65px 0;
+
+  }
+
+  .card-left{
+    width: 100%;
+  }
+
+  .card-right{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .card-right__form{
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  .card-right{
+    width: 100%;
+  }
+}
